@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="public/css/reset.css"/>
+    <link rel="stylesheet" href="public/css/contacto-style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header>
+                <nav class="nav-bar">
+                    <div id="logo">
+                        <img src="public/img/logo.png" alt="Barbería Alura">
+                    </div>
+                    <ul class="navegacion">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="main">
+            <form class="frm-contacto" name="frm-contacto">
+                <div class="parte">
+                    <label for="name">Nombre y Apellido </label>
+                    <input id="name" class="datos" name="name" type="text" required>
+                </div>
+                <div class="parte">
+                    <label for="telefono">Teléfono </label>
+                    <input id="telefono" class="datos" name="telefono" placeholder="(XX) - XXXX XXXX" type="number" required>
+                </div>
+                <div class="parte">
+                    <label for="email">Correo Electrónico </label>
+                    <input id="email" class="datos" name="email" type="email" placeholder="xxxxxxxx@xxxx.xxx" required>
+                </div>
+                <div class="parte">
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <div class="rd-div parte">
+                    <p>Cómo le gustaria que le contactemos?</p>
+                    <div>
+                        <input type="radio" id="rd-email" name="fav_language" value="EMAIL">
+                        <label for="rd-email">Email</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="rd-telefono" name="fav_language" value="TELEFONO">
+                        <label for="rd-telefono">Teléfono</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="rd-whatsapp" name="fav_language" value="WHATSAPP">
+                        <label for="rd-whatsapp">WhatsApp</label>
+                    </div>
+                </div>
+                <div class="horarios">
+                    <p>En cuál horario desea ser Atendido?</p>
+                    <select name="select">
+                        <option value="manana">Mañana</option>
+                        <option value="tarde">Tarde</option>
+                    </select>
+                </div>
+                <div class="informacion">
+                    <input type="checkbox" id="cbox2" value="chk-informacion">
+                    <label for="cbox2">Le gustaría recibir información asicional de nuestra Barbería?</label>
+                </div>
+                <div class="boton">
+                    <input class="enviar" type="submit" value="Enviar">
+                </div>
+            </form>
+            <div class="parte">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>08h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Miércoles</td>
+                            <td>08h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>08h - 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <img src="public/img/ambos-blanco.png">
+            <p class="copy">&copy;2022 Copyright Barberia Alura</p>
+        </footer>
+    </div>
+</body>
+</html>

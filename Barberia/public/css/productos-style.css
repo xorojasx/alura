@@ -1,0 +1,88 @@
+.header{
+    background-color:rgb(226, 226, 226);
+}
+.container{
+    width:100%;
+}
+.logo{
+    width:10%;
+}
+.nav-bar{
+    display:inline;
+}
+.navegacion{
+    margin-right: 2em;
+    position: absolute;
+    top: 2em;
+    right: 0;
+}
+.nav-bar li{
+    display:inline;
+    font-weight: bold;
+    margin: 0 0 0 1em;
+}
+.nav-bar a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-bar a:hover{
+    color: #3c12af;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo img{
+    height: 5em;
+}
+.main{
+    width:100%;
+}
+.productos-ul{
+    margin: 0 auto;
+    padding: 1em;
+    width: 70%;
+}
+.productos-ul h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+.productos-ul li{
+    border: 2px solid #000000;
+    border-radius: 2em;
+    display: inline-block;
+    height: 100%;
+    margin: 0 1.5%;
+    text-align: center;
+    vertical-align: top;
+    width: 25%;
+}
+.productos-ul li:hover{
+    border: 2px solid #15cf5c;
+    box-shadow: 0 10px 20px #15cf5c;
+}
+
+.prod-descripcion{
+    font-size: 18px;
+}
+.prod-valor{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1em;
+}
+footer{
+    background-image: url("../img/footer-fondo.jpg");
+    padding: 2em;
+    text-align: center;
+}
+footer p{
+    color: #fdfdfd;
+}
+.copy{
+    font-size: .8em;
+}

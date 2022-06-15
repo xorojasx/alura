@@ -1,0 +1,106 @@
+body{
+    background: #CCCCCC;
+}
+
+.logo{
+    width:10%;
+}
+.nav-bar{
+    display:inline;
+}
+.navegacion{
+    margin-right: 2em;
+    position: absolute;
+    top: 2em;
+    right: 0;
+}
+.nav-bar li{
+    display:inline;
+    font-weight: bold;
+    margin: 0 0 0 1em;
+}
+.nav-bar a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-bar a:hover{
+    color: #3c12af;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo img{
+    height: 5em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.imagen img{
+    padding: 1em;
+    width: 100%;
+}
+.mision{
+    background-color: rgb(204, 204, 204);
+    margin: 1em;
+    padding: 1em;
+    width: 98.5%;
+}
+.mision h1{
+    font-size:larger;
+    color: #0f299b;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+.footer{
+    margin: 0 auto;
+    width: 100%;
+}
+h2{
+    margin: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.items{
+    font-style: italic;
+}
+.diferenciales-ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagenDiferenciales{
+    width: 50%;
+}
+
+footer{
+    background-image: url("../img/footer-fondo.jpg");
+    padding: 2em;
+    text-align: center;
+}
+footer p{
+    color: #fdfdfd;
+}
+.copy{
+    font-size: .8em;
+}

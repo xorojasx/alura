@@ -1,0 +1,146 @@
+.header{
+    background-color:rgb(226, 226, 226);
+}
+.container{
+    width:100%;
+}
+.logo{
+    width:10%;
+}
+.nav-bar{
+    display:inline;
+}
+.navegacion{
+    margin-right: 2em;
+    position: absolute;
+    top: 2em;
+    right: 0;
+}
+.nav-bar li{
+    display:inline;
+    font-weight: bold;
+    margin: 0 0 0 1em;
+}
+.nav-bar a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-bar a:hover{
+    color: #3c12af;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo img{
+    height: 5em;
+}
+footer{
+    background-image: url("../img/footer-fondo.jpg");
+    padding: 2em;
+    text-align: center;
+}
+footer p{
+    color: #fdfdfd;
+}
+.copy{
+    font-size: .8em;
+}
+.frm-contacto{
+    margin: 0 auto;
+    width: 50%;
+}
+.frm-contacto .parte{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: .8em;
+    width: 100%;
+}
+.frm-contacto label{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 1em;
+}
+.datos{
+    border-radius: .5em;
+    padding: 1em;
+}
+.frm-contacto textarea{
+    height: 15rem;
+}
+
+.rd-div div{
+    display: inline;
+    margin: 1em 0 .5em 0;
+}
+.horarios p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+.horarios select{
+    padding: .3em;
+    width: 20%;
+}
+.informacion{
+    display: inline;
+    margin-left: 0;
+    margin-top: 2em;
+    padding: 2em;
+    width: 100%;
+}
+.informacion input{
+    font-size: 1em;
+    margin: 1em 0 .5em 0;
+}
+.informacion label{
+    font-size: 1em;
+}
+.boton{
+    align-content:right;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.enviar{
+    background: #090453;
+    border-color: #090453;
+    border-radius: 2em;
+    box-shadow: 10px 15px 20px #090453;
+    color: #dd1414;
+    font-size: 30px;
+    padding: 1em;
+    transition: 1s all;
+    width: 40%;
+}
+.enviar:hover{
+    background: #e2e60b;
+    border-color: #e2e60b;
+    border-radius: 2em;
+    box-shadow: 20px 20px 10px #5ad309;
+    color: #09076e;
+    font-size: 30px;
+    padding: 1em;
+    transform: scale(1.1);
+    width: 40%;
+}
+table{
+    margin-left: 25%;
+    margin-bottom:2em;
+    width:20%;
+}
+th{
+    background: #090453;
+    color:rgb(226, 226, 226);
+    font-weight: bold;
+    padding: 1em;
+}
+td{
+    border:1px solid;
+    margin: 0 auto;
+    width: 40%;
+}
